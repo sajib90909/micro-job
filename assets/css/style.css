@@ -1,0 +1,499 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/backgound.png);
+  background-repeat: repeat;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.content-area{
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+.content-width{
+  width: 600px;
+}
+ul{
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+.top-menu li{
+  margin-right: 20px;
+  font-size: 13px;
+  line-height: 25px;
+  color:#4D4D4D;
+  float:left;
+}
+.top-menu li:hover{
+  color:#757676;
+}
+.secction-one{
+  height: 60px;
+  border-radius: 20px;
+  margin:0 auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.10);
+}
+.action-btn{
+  padding-top: 5px;
+  width: 80px;
+  height: 30px;
+  font-size: 12px;
+  margin-right: 5px;
+  border-radius: 15px;
+  border:none;
+  color: #5AC606;
+  font-weight: 400;
+  box-shadow: 0 1px 2px 0 rgba(0, 200, 0, 0.2), 0 1px 5px 0 rgba(0, 200, 0, 0.11);
+}
+.action-btn:focus,.action-btn:active{
+  outline: none !important;
+  box-shadow: none !important;
+}
+.logo{
+  margin-top: 15px;
+  margin-left: 20px;
+  color: #5AC606;
+  display: inline-block;
+  float: left;
+  line-height: 60px;
+}
+.btn-group{
+  margin-top: 15px;
+  margin-right: 10px;
+}
+/* -----------------------------------------section-two------------------- */
+.section-two{
+  height: 25px;
+  width: 100%;
+  background-color: #2BEAF3;
+  margin-top: -5px;
+}
+/* ---------------------------------section-three-------------------------- */
+.section-three{
+  border-radius: 20px;
+  margin:0 auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.10);
+  margin-top: 10px;
+  background-color: #fff;
+}
+.inner-item{
+  padding-left:10px;
+  text-align: left;
+  font-size: 13px;
+  line-height: 25px;
+  width: 100%;
+  height: 80%;
+  margin: 5% 0;
+  border-right: 1px solid #B6B6B6;
+}
+.inner-item-e{
+  padding-left:10px;
+  text-align: left;
+  font-size: 13px;
+  width: 100%;
+  height: 80%;
+  margin: 5% 0;
+}
+.inner-item span, .card-sec span, .card-body-sec-p span{
+  margin-left: 5px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.10);
+}
+.innet-item-dev{
+  margin-top: 5px;
+  float: right;
+  text-align: center;
+  padding-right: 20px;
+  vertical-align: middle;
+}
+.innet-item-dev img{
+  width:30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.innet-item-dev .action-btn{
+  height: 20px;
+  width: 60px;
+  margin-top: 5px;
+  padding: 0;
+}
+/* ------------------------------------------------section-four------------------------ */
+.section-four{
+  text-align: center;
+  border-radius: 20px;
+  padding-bottom: 40px;
+  margin:0 auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.10);
+  margin-top: 10px;
+  background-color: #fff;
+}
+.btn-group-sec{
+  padding-top: 10px;
+}
+.btn-group-sec .action-btn{
+  color: inherit;
+  border-radius: 5px;
+  height: 20px;
+  padding: 2px 10px;
+  border: 1px solid #E4E4E4;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.10);
+
+}
+.content-table{
+  margin-top: 20px;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+}
+.content-table th,.content-table td{
+  padding: 5 10px;
+}
+.content-table table{
+  width: 500px;
+}
+
+/* -------------------------------------------------------------------------pagination--------- */
+.pagination-section{
+  width: 70%;
+  margin: auto;
+  text-align: right;
+  margin-top: 30px;
+}
+.pagination-sec{
+  display:inline-block;
+  font-size: 15px;;
+}
+.pagination-content{
+
+}
+.pagination-sec li a{
+  color: #707070;
+}
+.pagination-sec li{
+  cursor: pointer;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.pagination-sec li:hover{
+  text-decoration: underline;
+}
+.pagination-sec .active{
+  margin-top:-1px;
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  border:  1px solid #2BEAF3;
+  text-align: center;
+  background-color: #2BEAF3;
+  box-shadow: 0 1px 4px 0 rgba(0, 200, 0, 0.2), 0 3px 10px 0 rgba(0, 200, 0, 0.11);
+}
+.pagination-sec .active a{
+    color: white;
+}
+.page-btn{
+  margin-top:-1px;
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  border:  1px solid #2BEAF3;
+  text-align: center;
+  box-shadow: 0 1px 4px 0 rgba(0, 200, 0, 0.2), 0 3px 10px 0 rgba(0, 200, 0, 0.11);
+}
+/* ----------------------------------------------------------------------------------------------- */
+.job-name{
+  width: 150px;
+  max-width: 150px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: left;
+  padding-left: 10px;
+}
+.job-name:hover{
+  text-decoration: underline;
+}
+/* ---------------------------------------work-details-----------------------------------------------------------------------------------------***************************** */
+.card-sec{
+  font-size: 14px;
+  color: #4E4E4E;
+  text-align: left;
+  padding-top: 10px;
+}
+.card-sec label{
+  margin: 0px;
+}
+.card-header-sec{
+  border: 1px solid rgb(191, 255, 147);
+  /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.10); */
+  border-radius: 10px;
+  margin: 15px;
+  padding:5px 10px;
+}
+.card-body-sec{
+  line-height: 25px;
+  width: 300px;
+  border-radius: 15px;
+  box-shadow:  0 1px 4px 0 rgba(0, 200, 0, 0.2), 0 3px 10px 0 rgba(0, 200, 0, 0.11);
+  padding: 20px;
+  margin-left: 15px;
+  display: inline-block;
+}
+.card-top-sec{
+  /* width: 400px; */
+  border: 1px solid #E3E3E3;
+  /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.10); */
+  border-radius: 10px;
+  margin: 15px;
+  padding:5px 10px;
+}
+.card-2-body-sec{
+  width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.10);
+  padding: 20px;
+  margin-left: 15px;
+  display: inline-block;
+}
+.action-btn-cont{
+    padding: 20px;
+}
+.card-2-body-sec textarea{
+  width: 100%;
+  outline-color: none;
+  border: none;
+}
+.card-2-body-sec textarea:focus{
+  border: none;
+  outline: none;
+}
+/* -------------------------------------------profile.php--------------------------- */
+.card-body-sec-p{
+  line-height: 25px;
+  height: 450px;
+  margin:0 15px 0 15px;
+  border-radius: 15px;
+  box-shadow:  0 1px 4px 0 rgba(0, 200, 0, 0.2), 0 3px 10px 0 rgba(0, 200, 0, 0.11);
+  padding: 20px;
+  text-align: left;
+}
+.card-body-mg-r{
+  margin-right: -6px;
+}
+.card-body-mg-l{
+  margin-left: -6px;
+}
+.withdraw-btn{
+  margin:15px auto 0px;
+  text-align: center;
+  font-size:16px;
+}
+.withdraw-btn .action-btn{
+  padding: 2px 20px;
+  font-size: 16px;
+}
+/* ----------------------profile-img-------- */
+.img-sec{
+  text-align: center;
+}
+.img-sec img{
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+/* ---------------------------------input filed---------------------------- */
+#withdrawmodel{
+  text-align: left;
+}
+.lebel-class{
+  padding-top: calc(.375rem + 1px);
+  padding-bottom: calc(.375rem + 1px);
+  margin-bottom: 0;
+  font-size: 12px;;
+  line-height: 0.7rem;
+}
+.input-class{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: .6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.input-sec{
+  text-align: left;
+  margin: 0 auto;
+  padding:0 20px;
+  width: 400px;
+}
+/* ----------------------------------------footer-------------------------------------------- */
+.footer{
+ margin-top: 50px;
+ font-size: 13px;
+}
+
+/* -------------------------------------------------------------------------------login----------------------- */
+.login-page{
+  width: 400px;
+  margin:auto;
+  padding-top: 100px;
+  /* position: absolute; */
+  /* left: 50%;
+  top: 50%; */
+  /* transform: translate(-50%, -50%); */
+}
+.section-five{
+  width: 400px;
+  margin:auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.10);
+  border-radius: 20px;
+
+}
+.login-head{
+  padding:10px 0px;
+  color: #5FC145;
+}
+.forget-sec{
+  font-size: 11px;
+  padding-right: 10px;
+  color: green;
+  text-align: right;
+}
+.forget-sec a:hover{
+  text-decoration: underline;
+}
+.login-cont{
+  background-color: #fff;
+  width: 380px;
+  margin:20px auto;
+  padding: 20px 25px;
+  box-shadow:  0 1px 4px 0 rgba(0, 200, 0, 0.2), 0 3px 10px 0 rgba(0, 200, 0, 0.11);
+  border-radius: 20px;
+}
+.log-in-btn-sec{
+
+}
+.log-in-btn{
+  width: 200px;
+  height: 30px;
+  border-radius: 15px;
+}
+.singup-sec{
+  margin-top: 100px;
+}
+.signup-label{
+  color: #AFAFAF;
+  font-size: 14px;
+}
+.singup-link{
+  color: #4DAB34;
+  font-size: 14px;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+.login-input{
+  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+/* ------------------------------------ */
+#accept_job{
+  display: none;
+}
+@media screen and (max-width: 650px) {
+  .content-width{
+    width: 100%;
+  }
+  .content-area{
+    padding-left: 10px;
+  }
+  /* ----------------table---- */
+  .content-table table{
+    width: 100%;
+  }
+  .job-name{
+    width: inherit;
+  }
+  /* ---------------login-page---------- */
+  .login-page{
+    padding-top: 30px;
+    width: 100%;
+  }
+  .section-five{
+    width: 100%;
+    padding: 0 5px;
+  }
+  .login-cont{
+    width: 100%;
+  }
+  .singup-sec{
+    margin-top: 30px;
+  }
+  /* ---------------user-bar----- */
+  .inner-item{
+    border: none;
+    height: 100%;
+  }
+  .innet-item-dev{
+    text-align: left;
+    float: left;
+  }
+  .section-three .item-a{
+    width: 150px;
+    height: 70px;
+  }
+  .section-three .item-b{
+    width: 200px;
+    height: 70px;
+  }
+  .section-three .item-c{
+    height: 80px;
+    width: 200px;
+  }
+  /* ------------profile------- */
+  .card-body-mg-r{
+    margin: 0;
+  }
+  .card-body-mg-l{
+    margin:10px 0 0;
+  }
+  .profile-area{
+    margin: 0;
+  }
+  /* ------------input------- */
+  .input-sec{
+    width: 100%;
+  }
+  /* -----work-submit--------- */
+  .card-body-sec, .card-2-body-sec{
+    width: 90%;
+  }
+}
